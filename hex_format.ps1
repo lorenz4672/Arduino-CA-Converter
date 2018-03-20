@@ -1,8 +1,9 @@
+#Edit your own directory 
+# $tcnt: counts every hex code and outputs it at the end
+# $cnt: equal to a column counter which adds a carrage return every 12 hex codes
 
 
-
-
-    $text = Get-Content D:\baltimore.hex
+$text = Get-Content D:\yourHexStringFromWebsite.hex
 $cnt =0
 $tcnt =0
     While ($text)
